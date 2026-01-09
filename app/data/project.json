@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Electronic Signature System (TTE)",
+    "description": "Developed new frontend features, bug fixing, and managed deployment on OKD (OpenShift). Built CI/CD pipelines for automated testing and deployment.",
+    "tags": ["Frontend", "DevOps"],
+    "year": "2025",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  },
+  {
+    "title": "Web Application Maintenance",
+    "description": "Performed routine maintenance including security updates, bug fixes, and performance improvements. Implemented new features and provided technical support.",
+    "tags": ["Fullstack", "Maintenance"],
+    "year": "2024",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  },
+  {
+    "title": "Industry Grading System Website",
+    "description": "Full-stack development including Use Case, Sequence, Activity, and Database diagrams. Collaborated with UI/UX team to create interactive interfaces.",
+    "tags": ["Fullstack", "Database"],
+    "year": "2023",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  },
+  {
+    "title": "Company Profile Website",
+    "description": "Developed a company profile website to showcase services and projects. Implemented responsive design and optimized for performance.",
+    "tags": ["Frontend", "Company"],
+    "year": "2024",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  },
+  {
+    "title": "IT Helpdesk System",
+    "description": "Contributed to the development of an IT helpdesk system, focusing on ticket management, user authentication, and reporting features.",
+    "tags": ["Frontend", "Helpdesk"],
+    "year": "2024",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Designed and developed a personal portfolio website to showcase projects and skills. Implemented SEO best practices and performance optimizations.",
+    "tags": ["Frontend", "Portfolio"],
+    "year": "2025",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  },
+  {
+    "title": "Chrome Extension Development",
+    "description": "Developed a Chrome extension for enhanced productivity, featuring task management and time tracking functionalities.",
+    "tags": ["Frontend", "Chrome Extension"],
+    "year": "2023",
+    "image": "https://placehold.co/600x400/000000/FFFFFF/png?text=Project+Image"
+  }
+]

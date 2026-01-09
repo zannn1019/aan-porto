@@ -1,0 +1,181 @@
+{
+  "personal": {
+    "firstName": "AHMAD",
+    "lastName": "FAUZAN",
+    "fullName": "Ahmad Fauzan",
+    "title": "FULLSTACK WEB DEVELOPER",
+    "email": "fauzanguci1019@gmail.com",
+    "description": "Deep expertise in Nuxt.js and Laravel with strong understanding of modern web application architecture. Experienced in server-side rendering and building efficient APIs."
+  },
+  "branding": {
+    "logoText": {
+      "first": "AHMAD FAUZAN",
+      "last": "DEV"
+    }
+  },
+  "hero": {
+    "label": "FULLSTACK WEB DEVELOPER",
+    "description": "Deep expertise in Nuxt.js and Laravel with strong understanding of modern web application architecture. Experienced in server-side rendering and building efficient APIs.",
+    "ctaButtonText": "VIEW MY WORK",
+    "stats": {
+      "years": "2+",
+      "yearsLabel": "Years"
+    }
+  },
+  "about": {
+    "sectionNumber": "01",
+    "sectionLabel": "ABOUT ME",
+    "statement": "I'm a Fullstack Web Developer with deep expertise in Nuxt.js and Laravel, building modern web applications with solid architecture and optimal performance.",
+    "highlights": ["Fullstack Web Developer", "Nuxt.js", "Laravel"],
+    "imagePlaceholderLabels": ["PASSIONATE", "CREATIVE", "INNOVATIVE"],
+    "expertise": {
+      "title": "My Expertise",
+      "description": "Expert in using Nuxt.js for SSR applications and Laravel for backend development. Experienced in building RESTful APIs, managing MySQL and PostgreSQL databases, and deploying Linux-based applications. Skilled in using Jenkins for CI/CD pipelines, ensuring automation and efficiency in development and deployment processes."
+    },
+    "skills": [
+      {
+        "name": "Nuxt.js & Vue.js",
+        "level": 95
+      },
+      {
+        "name": "Laravel & PHP",
+        "level": 90
+      },
+      {
+        "name": "DevOps & CI/CD",
+        "level": 75
+      }
+    ],
+    "experience": [
+      {
+        "number": "2+",
+        "label": "Years Experience"
+      },
+      {
+        "number": "",
+        "label": "Major Projects"
+      },
+      {
+        "number": "2+",
+        "label": "Certifications"
+      }
+    ]
+  },
+  "contact": {
+    "sectionNumber": "03",
+    "sectionLabel": "GET IN TOUCH",
+    "title": {
+      "lines": ["Let's Create", "Something", "Amazing"]
+    },
+    "email": "fauzanguci1019@gmail.com",
+    "education": {
+      "school": "SMKN 2 Cimahi",
+      "major": "Software & Game Development",
+      "years": "2021-2024"
+    },
+    "certifications": ["Vue.js Mid-Level Developer", "BNSP Junior Coder"],
+    "social": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/zannn1019"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ahmad-fauzan-49674a2a0"
+      }
+    ],
+    "form": {
+      "submitButtonText": "SEND MESSAGE",
+      "projectTypes": [
+        {
+          "value": "",
+          "label": "Select a type"
+        },
+        {
+          "value": "web",
+          "label": "Web Development"
+        },
+        {
+          "value": "design",
+          "label": "UI/UX Design"
+        },
+        {
+          "value": "animation",
+          "label": "Animation"
+        },
+        {
+          "value": "other",
+          "label": "Other"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "menuItems": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "About",
+        "path": "#about"
+      },
+      {
+        "name": "Works",
+        "path": "#work"
+      },
+      {
+        "name": "Contact",
+        "path": "#contact"
+      }
+    ],
+    "menuSocial": [
+      {
+        "name": "BEHANCE",
+        "url": "https://www.behance.net/zannn1019"
+      },
+      {
+        "name": "DRIBBBLE",
+        "url": "https://dribbble.com/zannn1019"
+      },
+      {
+        "name": "GITHUB",
+        "url": "https://github.com/zannn1019"
+      }
+    ]
+  },
+  "footer": {
+    "copyrightText": "Ahmad Fauzan. Fullstack Web Developer.",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/zannn1019"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ahmad-fauzan-49674a2a0"
+      }
+    ]
+  },
+  "seo": {
+    "siteUrl": "http://webzan.my.id",
+    "siteName": "Ahmad Fauzan Portfolio",
+    "twitterHandle": "@zannn1019",
+    "keywords": [
+      "Fullstack Developer",
+      "Nuxt.js Developer",
+      "Laravel Developer",
+      "Vue.js Developer",
+      "Web Development",
+      "PHP Developer",
+      "DevOps",
+      "CI/CD",
+      "Ahmad Fauzan",
+      "Indonesia Developer",
+      "Frontend Developer",
+      "Backend Developer"
+    ],
+    "ogImage": "/og-image.jpg",
+    "themeColor": "#000000"
+  }
+}

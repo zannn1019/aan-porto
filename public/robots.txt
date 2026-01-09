@@ -1,0 +1,9 @@
+# http://webzan.my.id/robots.txt
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (if any in the future)
+# Disallow: /admin/
+
+# Sitemap
+Sitemap: http://webzan.my.id/sitemap.xml
