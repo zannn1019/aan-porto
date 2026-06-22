@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
 
   // 2. Global CSS files
-  css: ['assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
 
   // Runtime configuration
   runtimeConfig: {
