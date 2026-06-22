@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  
+  // 1. Keep Tailwind CSS module active
   modules: ['@nuxtjs/tailwindcss'],
+
+  // 2. Global CSS files
+  css: ['assets/css/main.css'],
 
   // Runtime configuration
   runtimeConfig: {
@@ -14,57 +19,29 @@ export default defineNuxtConfig({
     }
   },
 
-  // Enable SSG (Static Site Generation)
+  // Enable true Server-Side Rendering (SSR)
   ssr: true,
 
-  // Deployment configuration
+  // FIXED: Cleaned up the accidentally duplicated and nested blocks here
   app: {
-    // Use root path for Vercel/Netlify, '/portfolio/' for GitHub Pages
     baseURL: '/',
     buildAssetsDir: 'assets',
     head: {
-      htmlAttrs: {
-
-        modules: [
-          '@nuxtjs/tailwindcss'
-        ],
-
-        css: [
-          'assets/css/main.css'
-        ],
-
-        // Deployment configuration
-        app: {
-          // Use root path for Vercel/Netlify, '/portfolio/' for GitHub Pages
-          baseURL: '/',
-          head: {
-            htmlAttrs: {
-              lang: 'en'
-            },
-          },
-        }
-      },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+      htmlAttrs: {
+        lang: 'en'
+      }
     }
   },
 
-  // Target static for deployment
+  // FIXED: Removed preset: 'static' so Nitro defaults to 'node-server' (SSR mode)
   nitro: {
-    preset: 'static',
-    prerender: {
-      crawlLinks: true,
-      routes: ['/']
-    }
+    // By leaving this blank, Nuxt automatically builds the Node SSR environment
   },
 
   // SEO & Performance
   experimental: {
     payloadExtraction: false
-  },
-
-  // Enable compression
-  routeRules: {
-    '/': { prerender: true }
   }
 })
